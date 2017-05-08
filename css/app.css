@@ -1,0 +1,107 @@
+body {
+  background-image: url("../image/bodyb.jpg");
+  background-repeat: repeat;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: green;
+  font-size: 30px
+
+}
+@media only screen and (min-width: 900px)
+
+{
+
+.row{
+  outline:1px solid #68825b;
+  color: #68825b;
+  text-align: center;
+
+}
+section {
+  float: left;
+}
+.menu-text {color: #68825b;
+
+}
+
+.active {
+    background-color: #000000 !important;
+}
+a:link {
+    color: green;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+
+    color: #f8d462;
+    background-color: #2c4b45;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+a:active {
+    color: #f8d462;
+    background-color: transparent;
+    text-decoration: underline;
+
+
+}
+ul {
+background-repeat: no-repeat;
+background: transparent;
+    font-family: 'Esteban', serif;
+    font-size: 1.1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+@media only screen and (max-width:600px) {
+  .column {
+    background-color: #000000;
+  }
+  table, th, td {
+    background-color: black;
+     color: green;
+  }
+  .black {
+    background-color: black;
+  }
+
+footer {
+    position: relative;
+    color: black;
+}
+section {
+  color: black;
+}
+h1 {
+  padding-bottom: 2.5em;
+}
